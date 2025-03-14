@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="shortcut icon" href="images/fav-icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+<!-- 
+  Aos animation -->
+  <link href="css/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+           <!-- Menu and Profile -->
+            <div class="menu-profile">
+                <header>
+                    <nav>
+                       <div class="btn-1">
+                        <button class="dark-light-btn bg-gradient">
+                            <i class="fa-regular fa-sun"></i>
+                        </button>
+                       </div>
+                        <ul>
+                         <!-- about -->
+                            <li>
+                                <a href="#about-us" data-label="About"  class="active">
+                                <i class="fa-solid fa-address-book"></i>
+                            </a>
+                        </li>
+                        <!-- skill -->
+                            <li>
+                                <a href="#skills"  data-label="Skill">
+                                    <i class="fa-solid fa-layer-group"></i>
+                            </a>
+                        </li>
+                        <!-- services -->
+                            <li>
+                                <a href="#services"  data-label="Services">
+                                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                            </a>
+                        </li>
+                        <!-- pricing -->
+                            <li>
+                                <a href="#pricing"  data-label="Pricing">
+                                    <i class="fa-solid fa-dollar-sign"></i>
+                            </a>
+                        </li>
+                        <!-- Project -->
+                            <li>
+                                <a href="#projects"  data-label="Projects">
+                                    <i class="fa-solid fa-briefcase"></i>
+                            </a>
+                        </li>
+                        <!-- Education and Resume -->
+                            <li>
+                                <a href="#edu-work"  data-label="Resume">
+                                    <i class="fa-solid fa-file-lines"></i>
+                            </a>
+                        </li>
+                       <!-- clients -->
+                            <li>
+                                <a href="#testimonials"  data-label="Testimonials">
+                                    <i class="fa-solid fa-comment-dots"></i>
+                            </a>
+                        </li>
+                     <!-- contact -->
+                            <li>
+                                <a href="#contact"  data-label="Contact">
+                                    <i class="fa-solid fa-paper-plane"></i>
+                            </a>
+                        </li>
+                       
+                        </ul>
+                       
+                    </nav>
+                </header>
+
+                <!-- profile -->
+                 <div class="profile-container">
+                     <div class="user-profile  bg-gradient-profile ">
+                        <div class="user-profile-container ">
+                            <div class="user-profile-img">
+<img src="images/profile.jpg" alt="">
+
+                                
+                            </div>
+                            <div class="user-profile-text">
+                                <span>Web Developer</span>
+                                <h1>Renish Siwakoti</h1>
+                                <div class="profile-social-container">
+                                    <a href="https://www.facebook.com/renish.siwakoti.437" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="https://github.com/Renish437" target="_blank"><i class="fa-brands fa-reddit"></i></a>
+                                    <a href="https://x.com/RenishSiwakoti" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="https://github.com/Renish437" target="_blank"><i class="fa-brands fa-github"></i></a>
+                                   
+                                </div>
+                            </div>
+                           
+                        </div>
+                        <div class="user-profile-btns">
+                            <a href="#">Download CV</a>
+                            <a href="#contact">Contact me</a>
+                        </div>
+                     </div>
+                     
+                 </div>
+               
+            </div>
+
+            <!-- all content -->
+             <div class="all-content">
+     <!-- About us -->
+     <section id="about-us" class="section-container">
+        <h3>Hello I'm  <span id="role">Web Developer</span> </h3>
+          
+        <h1>Senior <span>Web Developer </span>and Data Scientist Based in California , Los Angeles</h1>
+
+        <p>Have worked in a variety of postions, including key developer, solution designer and data 
+            architect. Strong engineering background combined with closely working with business customers.
+        </p>
+
+        <!-- projects completed numbers -->
+         <div class="project-container-about">
+            <!-- box -->
+            <div class="profile-container-box">
+                <span id="count1"></span>
+                <strong class="ml-2">Completed Projects</strong>
+            </div>
+            <!-- box -->
+            <div class="profile-container-box">
+                <span id="count2"></span>
+                <strong class="ml-2">Years of Experience</strong>
+            </div>
+            <!-- box -->
+            <div class="profile-container-box">
+                <span id="count3"></span>
+                <strong class="ml-2">Award winning</strong>
+            </div>
+         </div>
+    
+     </section>
+
+      <!-- Skills -->
+      <section id="skills" class="section-container">
+        <div class="section-heading">
+            <span> <i class="fa-solid fa-layer-group"></i> Technical Skills</span>
+            <h3>Technologies</h3>
+        </div>
+
+        <!-- container -->
+         <div class="skill-box-container">
+            <div class="skill-box bg-gradient" data-aos="fade-up">
+                <div class="skill-box-content">
+                    <i class="fa-brands fa-html5"></i>
+                    <span>Html CSS</span>
+                </div>
+                <!-- bar -->
+                 <div class="skill-box-bar" >
+                    <span style="width: 75%;"></span>
+                 </div>
+                 <span class="skill-box-percentage">75%</span>
+            </div>
+            <div class="skill-box bg-gradient" data-aos="fade-up">
+                <div class="skill-box-content">
+                    <i class="fa-brands fa-html5"></i>
+                    <span>JS</span>
+                </div>
+                <!-- bar -->
+                 <div class="skill-box-bar">
+                    <span style="width: 70%;"></span>
+                 </div>
+                 <span class="skill-box-percentage">70%</span>
+            </div>
+            <div class="skill-box bg-gradient" data-aos="fade-up">
+                <div class="skill-box-content">
+                    <i class="fa-brands fa-python"></i>
+                    <span>Python</span>
+                </div>
+                <!-- bar -->
+                 <div class="skill-box-bar">
+                    <span style="width: 80%;"></span>
+                 </div>
+                 <span class="skill-box-percentage">80%</span>
+            </div>
+            <div class="skill-box bg-gradient" data-aos="fade-up">
+                <div class="skill-box-content">
+                    <i class="fa-brands fa-react"></i>
+                    <span>React</span>
+                </div>
+                <!-- bar -->
+                 <div class="skill-box-bar">
+                    <span style="width: 90%;"></span>
+                 </div>
+                 <span class="skill-box-percentage">90%</span>
+            </div>
+            <div class="skill-box bg-gradient" data-aos="fade-up">
+                <div class="skill-box-content">
+                    <i class="fa-brands fa-laravel"></i>
+                    <span>Laravel</span>
+                </div>
+                <!-- bar -->
+                 <div class="skill-box-bar">
+                    <span style="width: 95%;"></span>
+                 </div>
+                 <span class="skill-box-percentage">95%</span>
+            </div>
+            <div class="skill-box bg-gradient" data-aos="fade-up">
+                <div class="skill-box-content">
+                    <i class="fa-solid fa-database"></i>
+                    <span>MySql</span>
+                </div>
+                <!-- bar -->
+                 <div class="skill-box-bar">
+                    <span style="width: 85%;"></span>
+                 </div>
+                 <span class="skill-box-percentage">85%</span>
+            </div>
+            
+           
+         </div>
+         <!-- message -->
+         <p class="service-message">Contact Us for Need Any Help any Services <a href="#">Get Started</a></p>
+      </section>
+
+
+      <!-- Services -->
+       <section id="services" class="section-container">
+        <div class="section-heading">
+            <span> <i class="fa-solid fa-screwdriver-wrench"></i> Our Services</span>
+            <h3>What Services I Provide?</h3>
+        </div>
+        <div class="service-container">
+            <div class="service-box bg-gradient"  data-aos="fade-right">
+
+                <div class="service-box-heading">
+                    <div class="service-box-icon services-color">
+                     <img src="images/graphic.png" alt="">
+                    </div>
+                    <div class="service-box-heading-text">
+                       <span>2 Developers</span>
+                       <strong>Graphic Designer</strong>
+                    </div>
+                </div>
+
+                <p class="service-box-details">Data Models in SAP PowerDesigner ETL Process design & 
+                    implementation: Apache Airflow/ AWS / Python.
+                </p>
+                <a href="#">Get Started</a>
+            </div>
+            <div class="service-box bg-gradient"  data-aos="fade-left">
+
+                <div class="service-box-heading">
+                    <div class="service-box-icon">
+                     <img src="images/web.png" alt="">
+                    </div>
+                    <div class="service-box-heading-text">
+                       <span>2 Developers</span>
+                       <strong>Web Developer</strong>
+                    </div>
+                </div>
+
+                <p class="service-box-details">ETL pipelines according to the design and architecture
+                    Synapse, Databricks, Azure DevOps.
+                </p>
+                <a href="#">Get Started</a>
+            </div>
+            <div class="service-box bg-gradient"  data-aos="fade-right">
+
+                <div class="service-box-heading">
+                    <div class="service-box-icon">
+                     <img src="images/tech.png" alt="">
+                    </div>
+                    <div class="service-box-heading-text">
+                       <span>2 Developers</span>
+                       <strong>Technical Preparation</strong>
+                    </div>
+                </div>
+
+                <p class="service-box-details">Detailed data workflow description, solution design and 
+                    architecture, technical requirements specification.
+                </p>
+                <a href="#">Get Started</a>
+            </div>
+            <div class="service-box bg-gradient"  data-aos="fade-left">
+
+                <div class="service-box-heading">
+                    <div class="service-box-icon">
+                     <img src="images/devops.png" alt="">
+                    </div>
+                    <div class="service-box-heading-text">
+                       <span>2 Developers</span>
+                       <strong>DevOps </strong>
+                    </div>
+                </div>
+
+                <p class="service-box-details">Data Models in SAP PowerDesigner ETL Process design & 
+                    implementation: Apache Airflow/ AWS / Python.
+                </p>
+                <a href="#">Get Started</a>
+            </div>
+        </div>
+        <!-- message -->
+        <p class="service-message">Contact Us for Need Any Help any Services <a href="#">Get Started</a></p>
+       </section>
+
+
+       <section id="pricing" class="section-container">
+        <div class="section-heading">
+            <span> <i class="fa-solid fa-dollar-sign"></i> Pricing </span>
+            <h3>Amazing Pricing For your projects</h3>
+        </div>
+        <!-- plan-container -->
+
+        <div class="plan-container">
+            <div class="plan-box bg-gradient"  data-aos="fade-up">
+                <span class="plan-name">Basic</span>
+                <span class="price">$400</span>
+                <a href="">Order Now</a>
+                <ul class="pricing-box-feature">
+                    <li>
+                        <i class="fa-solid fa-check"></i>
+                        <span>Create data models is SAP PowerDesigner</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-check"></i>
+                        <span>Preparartion and participation in POCs and demos</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-check"></i>
+                        <span>Development and implementation of ETL pipelines</span>
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="plan-box bg-gradient"  data-aos="fade-up">
+                <span class="plan-name">Pro</span>
+                <span class="price">$800</span>
+                <a href="">Order Now</a>
+                <ul class="pricing-box-feature">
+                    <li>
+                        <i class="fa-solid fa-check"></i>
+                        <span>Create data models is SAP PowerDesigner</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-check"></i>
+                        <span>Preparartion and participation in POCs and demos</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-check"></i>
+                        <span>Development and implementation of ETL pipelines</span>
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="plan-box bg-gradient"  data-aos="fade-up">
+                <span class="plan-name">Premium</span>
+                <span class="price">$1400</span>
+                <a href="">Order Now</a>
+                <ul class="pricing-box-feature">
+                    <li>
+                        <i class="fa-solid fa-check"></i>
+                        <span>Create data models is SAP PowerDesigner</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-check"></i>
+                        <span>Preparartion and participation in POCs and demos</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-check"></i>
+                        <span>Development and implementation of ETL pipelines</span>
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="plan-box bg-gradient"  data-aos="fade-up">
+                <span class="plan-name">Ultimate</span>
+                <span class="price">$3000</span>
+                <a href="">Order Now</a>
+                <ul class="pricing-box-feature">
+                    <li>
+                        <i class="fa-solid fa-check"></i>
+                        <span>Create data models is SAP PowerDesigner</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-check"></i>
+                        <span>Preparartion and participation in POCs and demos</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-check"></i>
+                        <span>Development and implementation of ETL pipelines</span>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+       </section>
+
+       <section id="projects" class="section-container">
+        <div class="section-heading">
+            <span> <i class="fa-solid fa-briefcase"></i> Projects </span>
+            <h3>Explore Portfolio Technology</h3>
+        </div>
+
+        <!-- filter -->
+         <ul class="project-list">
+            <li class="active" data-filter="all">All</li>
+            <li class="" data-filter="ReactJs">ReactJs</li>
+            <li class="" data-filter="Figma">Figma</li>
+         </ul>
+
+         <div class="project-container">
+            <a href="" class="project-box" data-category="ReactJs"  data-aos="fade-right">
+                <div class="project-box-img">
+                    <img src="images/p2.jpg" alt="">
+                </div>
+                <div class="project-box-text-container">
+                 <div class="project-box-text">
+                    <strong>Business Comapny Website</strong>
+                    <span>ReactJs</span>
+                 </div>
+                 <div class="project-box-btn">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                 </div>
+                </div>
+            </a>
+           
+            <a href="" class="project-box" data-category="Figma" data-aos="fade-left">
+                <div class="project-box-img">
+                    <img src="images/p3.jpg" alt="">
+                </div>
+                <div class="project-box-text-container">
+                 <div class="project-box-text">
+                    <strong>Figma App Design</strong>
+                    <span>Figma</span>
+                 </div>
+                 <div class="project-box-btn">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                 </div>
+                </div>
+            </a>
+            <a href="" class="project-box" data-category="ReactJs" data-aos="fade-right">
+                <div class="project-box-img">
+                    <img src="images/p1.jpg" alt="">
+                </div>
+                <div class="project-box-text-container">
+                 <div class="project-box-text">
+                    <strong>Dashboard of Website</strong>
+                    <span>ReactJs</span>
+                 </div>
+                 <div class="project-box-btn">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                 </div>
+                </div>
+            </a>
+            <a href="" class="project-box" data-category="ReactJs" data-aos="fade-left">
+                <div class="project-box-img">
+                    <img src="images/p2.jpg" alt="">
+                </div>
+                <div class="project-box-text-container">
+                 <div class="project-box-text">
+                    <strong>Business Comapny Website</strong>
+                    <span>ReactJs</span>
+                 </div>
+                 <div class="project-box-btn">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                 </div>
+                </div>
+            </a>
+         </div>
+       </section>
+<!-- Education -->
+       <section id="edu-work" class="section-container">
+        <div class="section-heading">
+            <span> <i class="fa-regular fa-file-lines"></i> Resume</span>
+            <h3>Work Experience and Education</h3>
+        </div>
+
+        <div class="edu-work-container">
+
+            <div class="edu-container">
+                <span class="edu-work-label">
+                    <i class="fa-solid fa-building-columns"></i>
+                   Education
+                </span>
+                <!-- box-container -->
+                <div class="edu-work-box-container" data-aos="fade-up">
+                    <div class="edu-work-box">
+                        <span class="edu-work-year">2018 - 2025</span>
+                        <strong>BCA in Software Engineering</strong>
+                        <span class="edu-work-location">Tokha Nepal</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium possimus vel quia consequuntur maxime amet similique fugit, ab labore ipsum, quidem enim aliquam, optio numquam tempore aspernatur ullam sapiente harum?</p>
+
+                    </div>
+                  </div>
+                <div class="edu-work-box-container" data-aos="fade-up">
+                    <div class="edu-work-box">
+                        <span class="edu-work-year">2018 - 2025</span>
+                        <strong>BCA in Software Engineering</strong>
+                        <span class="edu-work-location">Tokha Nepal</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium possimus vel quia consequuntur maxime amet similique fugit, ab labore ipsum, quidem enim aliquam, optio numquam tempore aspernatur ullam sapiente harum?</p>
+
+                    </div>
+                  </div>
+                <div class="edu-work-box-container" data-aos="fade-up">
+                    <div class="edu-work-box">
+                        <span class="edu-work-year">2018 - 2025</span>
+                        <strong>BCA in Software Engineering</strong>
+                        <span class="edu-work-location">Tokha Nepal</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium possimus vel quia consequuntur maxime amet similique fugit, ab labore ipsum, quidem enim aliquam, optio numquam tempore aspernatur ullam sapiente harum?</p>
+
+                    </div>
+                  </div>
+            </div>
+          
+               
+            <!-- work -->
+            <div class="work-container">
+                <span class="edu-work-label">
+                <i class="fa-solid fa-briefcase"></i>
+                Work
+                </span>
+                <div class="edu-work-box-container" data-aos="fade-up" >
+                    <div class="edu-work-box">
+                        <span class="edu-work-year">2018 - 2025</span>
+                        <strong>BCA in Software Engineering</strong>
+                        <span class="edu-work-location">Tokha Nepal</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium possimus vel quia consequuntur maxime amet similique fugit, ab labore ipsum, quidem enim aliquam, optio numquam tempore aspernatur ullam sapiente harum?</p>
+
+                    </div>
+                  </div>
+                  <div class="edu-work-box-container" data-aos="fade-up">
+                    <div class="edu-work-box">
+                        <span class="edu-work-year">2018 - 2025</span>
+                        <strong>BCA in Software Engineering</strong>
+                        <span class="edu-work-location">Tokha Nepal</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium possimus vel quia consequuntur maxime amet similique fugit, ab labore ipsum, quidem enim aliquam, optio numquam tempore aspernatur ullam sapiente harum?</p>
+
+                    </div>
+                  </div>
+                  <div class="edu-work-box-container" data-aos="fade-up">
+                    <div class="edu-work-box">
+                        <span class="edu-work-year">2018 - 2025</span>
+                        <strong>BCA in Software Engineering</strong>
+                        <span class="edu-work-location">Tokha Nepal</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium possimus vel quia consequuntur maxime amet similique fugit, ab labore ipsum, quidem enim aliquam, optio numquam tempore aspernatur ullam sapiente harum?</p>
+
+                    </div>
+                  </div>
+            </div>
+        </div>
+       
+       </section>
+
+       <section id="testimonials" class="section-container">
+       
+    <div class="section-heading">
+            <span> <i class="fa-regular fa-comment-dots"></i> Testimonials</span>
+            <h3>Here's what my clients says</h3>
+        </div>
+
+        <div class="testimonials-container">
+            <div class="swiper mySwiper" data-aos="fade-up">
+                <div class="swiper-wrapper">
+               
+                    <div class="testimonials-box bg-gradient swiper-slide">
+                        <div class="testimonials-reviews">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium iusto ab, id, atque nostrum magnam fugit quos, reiciendis quasi tenetur earum et ea animi odit omnis! Ut sint vero dolorem?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab iusto aspernatur voluptas minus voluptates possimus nemo totam explicabo, vitae, quos voluptatum libero. Id impedit totam laboriosam sunt exercitationem accusantium corporis!
+                        </p>
+        
+                        <div class="client-profile">
+                            <div class="client-profile-img">
+                                <img src="images/c1.jpg" alt="">
+                            </div>
+                
+                            <div class="client-profile-text">
+                                <strong>Clayton Ayers</strong>
+                                <span>CEO Abc.co</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonials-box bg-gradient swiper-slide">
+                        <div class="testimonials-reviews">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium iusto ab, id, atque nostrum magnam fugit quos, reiciendis quasi tenetur earum et ea animi odit omnis! Ut sint vero dolorem?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab iusto aspernatur voluptas minus voluptates possimus nemo totam explicabo, vitae, quos voluptatum libero. Id impedit totam laboriosam sunt exercitationem accusantium corporis!
+                        </p>
+        
+                        <div class="client-profile">
+                            <div class="client-profile-img">
+                                <img src="images/c1.jpg" alt="">
+                            </div>
+                
+                            <div class="client-profile-text">
+                                <strong>Clayton Ayers</strong>
+                                <span>CEO Abc.co</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonials-box bg-gradient swiper-slide">
+                        <div class="testimonials-reviews">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium iusto ab, id, atque nostrum magnam fugit quos, reiciendis quasi tenetur earum et ea animi odit omnis! Ut sint vero dolorem?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab iusto aspernatur voluptas minus voluptates possimus nemo totam explicabo, vitae, quos voluptatum libero. Id impedit totam laboriosam sunt exercitationem accusantium corporis!
+                        </p>
+        
+                        <div class="client-profile">
+                            <div class="client-profile-img">
+                                <img src="images/c1.jpg" alt="">
+                            </div>
+                
+                            <div class="client-profile-text">
+                                <strong>Clayton Ayers</strong>
+                                <span>CEO Abc.co</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonials-box bg-gradient swiper-slide">
+                        <div class="testimonials-reviews">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium iusto ab, id, atque nostrum magnam fugit quos, reiciendis quasi tenetur earum et ea animi odit omnis! Ut sint vero dolorem?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab iusto aspernatur voluptas minus voluptates possimus nemo totam explicabo, vitae, quos voluptatum libero. Id impedit totam laboriosam sunt exercitationem accusantium corporis!
+                        </p>
+        
+                        <div class="client-profile">
+                            <div class="client-profile-img">
+                                <img src="images/c1.jpg" alt="">
+                            </div>
+                
+                            <div class="client-profile-text">
+                                <strong>Clayton Ayers</strong>
+                                <span>CEO Abc.co</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonials-box bg-gradient swiper-slide">
+                        <div class="testimonials-reviews">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium iusto ab, id, atque nostrum magnam fugit quos, reiciendis quasi tenetur earum et ea animi odit omnis! Ut sint vero dolorem?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab iusto aspernatur voluptas minus voluptates possimus nemo totam explicabo, vitae, quos voluptatum libero. Id impedit totam laboriosam sunt exercitationem accusantium corporis!
+                        </p>
+        
+                        <div class="client-profile">
+                            <div class="client-profile-img">
+                                <img src="images/c1.jpg" alt="">
+                            </div>
+                
+                            <div class="client-profile-text">
+                                <strong>Clayton Ayers</strong>
+                                <span>CEO Abc.co</span>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+        </div>
+      <p class="testimonials-message">More than <span>200+ companies</span> trusted us worldwide</p>
+
+
+      <div class="client-logos" data-aos="fade-up">
+        <div class="logos-wrapper">
+            <img src="images/b1.png" alt="Client 1">
+            <img src="images/b2.png" alt="Client 2">
+            <img src="images/b3.png" alt="Client 3">
+            <img src="images/b4.png" alt="Client 4">
+            <img src="images/b1.png" alt="Client 5">
+            <img src="images/b2.png" alt="Client 5">
+            <img src="images/b3.png" alt="Client 5">
+            <img src="images/b4.png" alt="Client 5">
+            <img src="images/b1.png" alt="Client 5">
+            <img src="images/b2.png" alt="Client 5">
+            <img src="images/b3.png" alt="Client 5">
+            <img src="images/b4.png" alt="Client 5">
+        </div>
+    </div>
+    
+       </section>
+
+       <!-- <section id="contact" class="section-container">
+        <div class="section-heading">
+            <span> <i class="fa-solid fa-paper-plane"></i>Contact</span>
+            <h3>Let's get in contact</h3>
+        </div>
+
+        <div class="contact-box-container">
+            <div class="contact-box bg-gradient" data-aos="fade-right">
+                <div class="contact-box-icon">
+                    <i class="fa-solid fa-address-book"></i>
+                    <strong>Phone</strong>
+                </div>
+                <span>+977 9808744860</span>
+            </div>
+            <div class="contact-box bg-gradient" data-aos="fade-left">
+                <div class="contact-box-icon">
+                    <i class="fa-solid fa-envelope"></i>
+                    <strong>Address</strong>
+                </div>
+                <span>renishsiwakoti@437.com</span>
+            </div>
+            <div class="contact-box bg-gradient contact-box-location" data-aos="fade-up">
+                <div class="contact-box-icon">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                    <strong>Location</strong>
+                </div>
+                <span>Kathmandu Nepal</span>
+            </div>
+        </div>
+
+
+        <div class="contact-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3530.3313345984966!2d85.32780897407473!3d27.76876322278254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1ec6bfbb9825%3A0x4231fd7f7ac8d0d6!2sTokha%20Ganeshthan%20Mandir!5e0!3m2!1sen!2snp!4v1741925128912!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         
+          </div>
+       </section> -->
+
+
+       <section id="contact" class="section-container">
+        <div class="section-heading">
+            <span><i class="fa-solid fa-paper-plane"></i> Contact</span>
+            <h3>Let's get in contact</h3>
+        </div>
+    
+      
+
+        <div class="container-form ">
+            <div class="contact-form-section">
+                <h1 class="contact-form-title">Send us a message</h1>
+                <form class="contact-form">
+                   
+                   <div style="width:100%;" class="input-col">
+                    <i class="fa-solid fa-user icon mt-2"></i>
+                    <input type="text" placeholder="Name" class="input-field">
+                   </div>
+                   <div style="width:100%;" class="input-col mt-2">
+                    <i class="fa-solid fa-envelope icon "></i>
+                    <input type="email" placeholder="Email" class="input-field">
+                   </div>
+                   <div style="width:100%;" class="input-col mt-2">
+                    <i class="fa-solid fa-book icon "></i>
+                    <input type="text" placeholder="Subject" class="input-field">
+                   </div>
+                   
+                   <div class="textarea-container ">
+                    <i class="fa-solid fa-comment icon mb-2"></i>
+                    <textarea placeholder="Message" class="message-field"></textarea>
+                   
+                </div>
+                
+                
+                    <button type="submit" class="send-button">Send Message</button>
+                </form>
+            </div>
+            <div class="map-section-1">
+                <div class="contact-box-container-1">
+                    <div class="contact-box bg-gradient" data-aos="fade-right">
+                        <div class="contact-box-icon-1">
+                            <i class="fa-solid fa-address-book"></i>
+                            <strong>Phone</strong>
+                        </div>
+                        <span>+977 9808744860</span>
+                    </div>
+                    <div class="contact-box bg-gradient" data-aos="fade-left">
+                        <div class="contact-box-icon-1">
+                            <i class="fa-solid fa-envelope"></i>
+                            <strong>Address</strong>
+                        </div>
+                        <span>renishsiwakoti@437.com</span>
+                    </div>
+                    <div class="contact-box bg-gradient contact-box-location-1 mb-2" data-aos="fade-up">
+                        <div class="contact-box-icon-1">
+                            <i class="fa-solid fa-map-location-dot"></i>
+                            <strong>Location</strong>
+                        </div>
+                        <span>Kathmandu Nepal</span>
+                    </div>
+                </div>
+        
+        
+                <div class="contact-map-1">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3530.3313345984966!2d85.32780897407473!3d27.76876322278254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1ec6bfbb9825%3A0x4231fd7f7ac8d0d6!2sTokha%20Ganeshthan%20Mandir!5e0!3m2!1sen!2snp!4v1741925128912!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                 
+                  </div>
+            </div>
+        </div>
+    </section>
+      
+     
+
+
+             </div>
+       
+                     
+            
+    </div>
+</body>
+
+<script src="js/swiper-bundle.min.js"></script>
+<script src="js/aos.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+            breakpoints: {
+                640: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 1.5,
+                    spaceBetween: 20,
+                },
+                1024: {
+                    slidesPerView: 1.5,
+                    spaceBetween: 20,
+                },
+            },
+        });
+
+        AOS.init();
+ 
+    });
+    var totalSlides = swiper.slides.length;
+    console.log("Total slides: " + totalSlides);
+
+    
+
+
+</script>
+
+<script src="js/script.js"></script>
+
+
+</html>
