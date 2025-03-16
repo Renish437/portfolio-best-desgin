@@ -170,11 +170,12 @@
         font-size: 1.9rem;
     }
     .map-section-1{
-        padding: 1.9rem;
-        margin: 10px auto;
+        padding: 0.999rem;
+        /* margin: 19px 10px; */
     }
     .contact-form-section{
-        padding: 0.8345rem;
-        margin: 10px auto;
+        padding: 0.9999rem;
+        margin: 19px 14px;
+        grid-auto-flow: 1;
     }
 }
