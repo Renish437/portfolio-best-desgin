@@ -100,7 +100,9 @@
 
 }
 @media(max-width:556px){
-  
+  html{
+    font-size: 13.5px;
+  }
     .main-container{
         margin: 25px auto;
     }
