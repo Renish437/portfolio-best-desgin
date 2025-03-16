@@ -100,8 +100,43 @@ document.addEventListener("DOMContentLoaded",function(){
         localStorage.setItem("mode",isLightMode?"light":"dark");
     });
 
+  
+
+   
+    
+
+})
+document.addEventListener("DOMContentLoaded", function () {
+    const htmlElement = document.documentElement;
+    const profileImg = document.querySelector(".user-profile-img img"); // Selects the profile image
+
+    // Function to update the profile image based on the mode
+    function updateImage() {
+        if (profileImg) {
+            profileImg.src = htmlElement.classList.contains("light-mode") 
+                ? "images/photo2.jpg"  // Light mode (default)
+                : "images/photo.jpg";   // Dark mode
+        }
+    }
+
+    // Apply correct image on page load based on the saved mode
+    if (localStorage.getItem("mode") === "light") {
+        htmlElement.classList.add("light-mode"); // Ensure light mode is applied
+    }
+
+    updateImage(); // Set correct image on page load
+
+    // Listen for mode changes and update image accordingly
+    const observer = new MutationObserver(updateImage);
+    observer.observe(htmlElement, { attributes: true, attributeFilter: ["class"] });
+});
 
 
+
+
+
+
+document.addEventListener("DOMContentLoaded",function(){
     const sections = document.querySelectorAll("section");  // Select all sections
     const navLinks = document.querySelectorAll("nav ul li a");
     
@@ -130,7 +165,6 @@ document.addEventListener("DOMContentLoaded",function(){
     
     // Run once on page load to highlight the correct link
     setActiveLink();
-    
 })
 // document.addEventListener("DOMContentLoaded",function(){
 //     document.addEventListener("DOMContentLoaded", function () {
