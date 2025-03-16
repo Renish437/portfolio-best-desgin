@@ -100,9 +100,7 @@
 
 }
 @media(max-width:556px){
-    nav ul{
-        margin: 11px!important;
-    }
+  
     .main-container{
         margin: 25px auto;
     }
@@ -122,7 +120,7 @@
     .section-container,
     #about-us{
         padding: 30px 30px;
-        margin: 5px;
+        margin: 2px;
     }
     #about-us h3{
         display: flex;
@@ -172,9 +170,11 @@
         font-size: 1.9rem;
     }
     .map-section-1{
-        padding: 0.7345rem;
+        padding: 1.9rem;
+        margin: 10px auto;
     }
     .contact-form-section{
-        padding: 0.7345rem;
+        padding: 0.8345rem;
+        margin: 10px auto;
     }
 }
