@@ -166,17 +166,17 @@
         grid-template-columns: repeat(1,minmax(330px,1fr)); /* Stack elements vertically on small screens */
     }
     .contact-form{
-        flex-grow: 2;
+        flex-grow: 0;
     }
     .contact-form-title{
         font-size: 1.9rem;
     }
     .map-section-1{
         padding: .799rem;
-        margin: 19px -8px;
+        margin: 19px -5px;
     }
     .contact-form-section{
-        padding: 0.27rem;
+        padding:0.4112rem;
         margin: 19px 0px;
         grid-auto-flow: 1;
     }
