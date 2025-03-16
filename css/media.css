@@ -175,7 +175,7 @@
     }
     .contact-form-section{
         padding: 0.9999rem;
-        margin: 19px 14px;
+        margin: 19px 1px;
         grid-auto-flow: 1;
     }
 }
