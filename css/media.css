@@ -54,6 +54,7 @@
         justify-content: flex-start;
         overflow-x: auto;
         padding: 20px;
+     
         box-shadow: 2px 2px 30px rgba(235,235,235,0.12);
     }
     header nav ul li a:after,
@@ -89,6 +90,7 @@
     .user-profile-img{
         min-height: auto;
     }
+
     .container-form {
         grid-template-columns: 1fr; /* Stack elements vertically on small screens */
     }
@@ -98,9 +100,11 @@
 
 }
 @media(max-width:556px){
-   
+    nav ul{
+        margin: 11px!important;
+    }
     .main-container{
-        margin: 20px auto;
+        margin: 25px auto;
     }
     .project-container-about{
         grid-template-columns: 1fr;
@@ -108,12 +112,17 @@
     .user-profile-img{
         min-height: auto;
     }
+    .user-profile{
+        margin: 10px;
+    }
     .user-profile-container{
         padding: 30px;
+       
     }
     .section-container,
     #about-us{
-        padding: 30px 20px;
+        padding: 30px 30px;
+        margin: 5px;
     }
     #about-us h3{
         display: flex;
@@ -153,5 +162,19 @@
         width: auto;
         height: 35px;
     }
-    
+    .container-form {
+        grid-template-columns: repeat(1,minmax(330px,1fr)); /* Stack elements vertically on small screens */
+    }
+    .contact-form{
+        flex-grow: 2;
+    }
+    .contact-form-title{
+        font-size: 1.9rem;
+    }
+    .map-section-1{
+        padding: 0.7345rem;
+    }
+    .contact-form-section{
+        padding: 0.7345rem;
+    }
 }
