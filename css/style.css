@@ -225,7 +225,7 @@ margin-left: -30px;
 .user-profile-container{
     display: flex;
     flex-direction: column;
-    padding: 2.5rem;
+    padding: 0.999rem;
     width: 100%;
     background-color: var(--color-1);
   
@@ -234,7 +234,7 @@ margin-left: -30px;
 }
 .user-profile-img{
     width: auto;
-    height: 27.75rem;
+    height: 29.75rem;
     display: flex;
     border-radius: 1.875rem 0rem 1.875rem 1.875rem;
 
@@ -252,7 +252,7 @@ margin-left: -30px;
     align-items: center;
     justify-content: center;
     justify-content: center;
-    margin-top: 2.5rem;
+    margin-top: 0.5rem;
 }
 .user-profile-text span{
     color: var(--primary-color);
@@ -294,6 +294,8 @@ margin-left: -30px;
     height: 4.375rem;
     border-top: 0.0625rem solid var(--border-color);
     width: 100%;
+    padding: 20px;
+
 }
 .user-profile-btns a{
     display: flex;
