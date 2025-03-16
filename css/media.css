@@ -121,8 +121,13 @@
        
     }
     .user-profile-btns{
-        padding: 2px;
-        margin: 5px 0;
+        display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--color-1);
+    height: 5.375rem;
+    border-top: 0.0625rem solid var(--border-color);
+    width: 100%;
+    padding: 20px;
     }
     .section-container,
     #about-us{
