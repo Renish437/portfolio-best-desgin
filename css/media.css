@@ -173,11 +173,11 @@
     }
     .map-section-1{
         padding: .799rem;
-        margin: 19px -5px;
+        margin: 19px auto;
     }
     .contact-form-section{
         padding:0.4112rem;
-        margin: 19px 0px;
+        margin: 19px auto;
         grid-auto-flow: 1;
     }
 }
