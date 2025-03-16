@@ -117,7 +117,12 @@
     }
     .user-profile-container{
         padding: 30px;
+        
        
+    }
+    .user-profile-btns{
+        padding: 2px;
+        margin: 10px;
     }
     .section-container,
     #about-us{
