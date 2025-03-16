@@ -115,7 +115,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (profileImg) {
             profileImg.src = htmlElement.classList.contains("light-mode") 
                 ? "images/photo2.jpg"  // Light mode (default)
-                : "images/photo.jpg";   // Dark mode
+                : "images/photo3.jpg";   // Dark mode
         }
     }
 
